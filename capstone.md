@@ -1,3 +1,9 @@
+<h1 align="center">Peiyuan's Gait Recognition Reading List</h1>
+
+A place to keep track of the Gait Recognitionn papers I read, starting from 2022 Feb.
+I note down every paper that I've read, but only summarize and make comments for those I find interesting.
+
+
 # Computer Vision --  Gait Recognnintion 
 
 
@@ -31,6 +37,7 @@
 + [RFMask: A Simple Baseline for Human Silhouette Segmentation with Radio Signals]()<br>
 
 + [End-to- end model-based gait recognition]()<br>
+1. What is model-based gait recognition: try to model the 3 dimensional moving pattern directly from skeletonns.
 
 + [Multi-Camera Trajectory Forecasting: Pedestrian Trajectory Prediction in a Network of Cameras]()<br>
 1. Multi-Camera Trajectory Forecasting
@@ -40,12 +47,27 @@
 
 
 + [Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking]()<br>
+0. Perform object detection, feature extraction, and tracking in one go.
+1. The input is two adjacent frame (so called a node), generate paired bounding boxes corresponding to the two frames. They use simple IOU score to track the bounding boxes by comparing the same frame's boxes in different nodes.
+2. Feature encoder: ResNet-50 + FPN
+3. Paired Box Regression: 
 + [Mask R-CNN]() <br>
+
+
 + [Faster R-CNN]()<br>
+1. Region Proposal Network share parameter with the detection network.
+2. introduce anchor box.
+
 + [Fast R-CNN]()<br>
+
++ [Fully convolutional networks for semantic segmentation.]() <br>
++ [MaskFormer: Per-Pixel Classification is Not All You Need for Semantic Segmentation]()<br>
+1. Per-pixel classification: every pixel conduct multi-class classification.
+2. Mask Classification: Different mask is generated for different class. There is a per-pixel BINARY classification loss and per mask classificationn loss.
 + [Masked-attention Mask Transformer for Universal Image Segmentation]()<br>
-+[MaskFormer: Per-Pixel Classification is Not All You Need for Semantic Segmentation]()<>
-+ [Fully convolutional networks for semantic segmentation.]() <brCap@2022>
+1. 
+
+
 +[Mask2Former for Video Instance Segmentation]() <br>
 
 + [Gait Recognition via Disentangled Representation Learning]()<br>
