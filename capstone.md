@@ -87,6 +87,6 @@ Person ReID basically has the same objective as Gait Recognition. The only diffe
 GaitGL without crossEntropyLoss 
 2. Pretrain out Gait Recognition model of Person ReID dataset. 
 3. Contrastive Learning with data augmentation
-4. Ramdom Sample a fixed length 的影响
+4. Ramification clased by ramdomly sample a fixed length 
 5. Few shot learnin: train a small model to change the last few layer's parameter? 
 6. Use existing large scale video dataset such as dataset for activity detection. -- > do human annotation. --> this is only single view
