@@ -82,11 +82,4 @@ Person ReID basically has the same objective as Gait Recognition. The only diffe
 2. Identification model: formulate the task as multi-class classification. Drawbacks: During testing, the feature is extracted from a fully connected layer and then normalized. The similarity of two images is thus computed by the Euclidean distance between their normalized CNN embed- dings. The major drawback of the identification model is that the training objective is different from the testing procedure, i.e.,it does not account for the similarity measurement between image pairs, which can be problematic during the pedestrian retrieval process.
 3. We find that the contrastive loss leads to over-fitting when the number of images is limited.
 
-# Ideas
-1. There is a gap between training loss and tesing. Instead, we can always choose a sample as probe during training and calculate cross entropy loss.
-GaitGL without crossEntropyLoss 
-2. Pretrain out Gait Recognition model of Person ReID dataset. 
-3. Contrastive Learning with data augmentation
-4. Ramification clased by ramdomly sample a fixed length 
-5. Few shot learnin: train a small model to change the last few layer's parameter? 
-6. Use existing large scale video dataset such as dataset for activity detection. -- > do human annotation. --> this is only single view
+
