@@ -62,7 +62,13 @@ I note down every paper that I've read, but only summarize and make comments for
 + [Model-based gait recognition using graph network on very large population database]() <br>
 + [OpenPose]
 + [Gait Recognition in the Wild: A Benchmark]() <br
->
+
+# Computer Vision -- Video Self-supervised Learning
++ [Masked Feature Prediction for Self-Supervised Visual Pre-Training]()<br>
++ [MViTv2- Improved Multiscale Vision Transformers for Classification and Detection]()<br>
++ [VideoMAE- Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training]()<br>
++ [ViViT- A Video Vision Transformer ]()<br>
++ [Multiscale Vision Transformers]()<br>
 # Computer Vision --  Person Re-Identification
 Person ReID basically has the same objective as Gait Recognition. The only difference is that the model input for ReID is a image, while for Gait Recognition it is a video.
 + [Horizontal pyramid matching for person re-identification]()<br>
